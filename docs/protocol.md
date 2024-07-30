@@ -42,7 +42,9 @@ ACKs are structured like so:
 
 `['.ocnp.ack.....',rejected]`
 
-The first section is a screen.
+The first section is a header to let OCNP-compliant programs know that it is an ACK.
+
+The second one is a boolean, i.e. `true` or `false`, to see if the receiver accepted or rejeceted the packet.
 
 
 ## Topology
